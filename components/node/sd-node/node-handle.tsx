@@ -82,6 +82,7 @@ export const NodeHandle = ({
             clickable && "group-hover:underline group-hover:text-white transition duration-200 ease-in-out",
           )}
           title={Array.isArray(slotType) ? "STRING" : slotType}
+          onClick={onClick}
         >
           {startCase(label.toLowerCase?.())}
         </a>
